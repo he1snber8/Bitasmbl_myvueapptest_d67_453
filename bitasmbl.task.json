@@ -1,0 +1,44 @@
+{
+  "projectApplicationId": 453,
+  "requirementId": 943,
+  "files": [
+    "frontend/src/views/text.txt"
+  ],
+  "activityMeta": [
+    {
+      "file": "frontend/src/views/text.txt",
+      "requirementId": 943,
+      "requirementName": "Build customer portal UI",
+      "changes": 1,
+      "modifiedRanges": [
+        {
+          "startLine": 1,
+          "endLine": 1,
+          "lineCount": 1
+        }
+      ],
+      "timestamps": {
+        "firstModified": "2026-07-08T09:11:18.536Z",
+        "lastModified": "2026-07-08T09:11:18.537Z"
+      },
+      "activity": {
+        "activeDurationSec": 0,
+        "idleBreaks": 0,
+        "avgIntervalSec": 0
+      },
+      "diffStats": {
+        "linesAdded": 1,
+        "linesDeleted": 0,
+        "largeChangeEvents": 0
+      },
+      "patterns": {
+        "burstEdits": false,
+        "longPauseBeforeEdit": false
+      },
+      "sourceHints": {
+        "possiblePaste": false,
+        "suspiciousJump": false
+      }
+    }
+  ]
+}
