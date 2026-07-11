@@ -1,0 +1,188 @@
+{
+  "projectName": "Customer Portal",
+  "projectOverview": "Build a full-stack customer portal using Vue.js and Laravel with customer profiles, support requests, API-backed forms, and clean component structure.",
+  "techStackId": 82,
+  "projectId": 415,
+  "requirements": [
+    {
+      "id": 943,
+      "description": "Build Vue pages and reusable components for customer profile, support requests, and request details.",
+      "header": "Build customer portal UI",
+      "techStackId": 82,
+      "techStack": {
+        "id": 82,
+        "name": "Vue.js",
+        "identifier": "vuejs",
+        "isCurrentlySupported": true,
+        "domain": {
+          "id": 12,
+          "name": "FrontEnd"
+        }
+      },
+      "projectSubTaskSubmissions": [
+        {
+          "id": 1687,
+          "summary": null,
+          "totalScore": 0,
+          "projectRequirementId": 943,
+          "dateSubmitted": null,
+          "submissionsLeft": 3,
+          "isValid": false
+        }
+      ],
+      "projectRequirementMilestones": [
+        {
+          "id": 73,
+          "header": "Create portal views",
+          "acceptanceCriterias": [
+            {
+              "id": 190,
+              "description": "Create views for profile, request list, and request detail.",
+              "isSatisfied": false,
+              "status": "NotEvaluated",
+              "completenessPercentage": 0,
+              "filePathEvidence": [],
+              "projectRequirementMilestoneId": 73
+            },
+            {
+              "id": 191,
+              "description": "Create reusable support request card components.",
+              "isSatisfied": false,
+              "status": "NotEvaluated",
+              "completenessPercentage": 0,
+              "filePathEvidence": [],
+              "projectRequirementMilestoneId": 73
+            },
+            {
+              "id": 192,
+              "description": "Display request status, category, and last update date.",
+              "isSatisfied": false,
+              "status": "NotEvaluated",
+              "completenessPercentage": 0,
+              "filePathEvidence": [],
+              "projectRequirementMilestoneId": 73
+            }
+          ],
+          "projectRequirement": {
+            "id": 943,
+            "description": "Build Vue pages and reusable components for customer profile, support requests, and request details.",
+            "header": "Build customer portal UI",
+            "techStackId": 82,
+            "paths": [
+              "**/src/views/**",
+              "**/src/components/customer/**",
+              "**/src/features/support/**"
+            ],
+            "projectId": 415
+          }
+        }
+      ],
+      "paths": [
+        "**/src/views/**",
+        "**/src/components/customer/**",
+        "**/src/features/support/**"
+      ],
+      "projectId": 415
+    },
+    {
+      "id": 945,
+      "description": "Connect Vue forms to Laravel API endpoints with request validation and user feedback.",
+      "header": "Integrate support request flow",
+      "techStackId": 82,
+      "techStack": {
+        "id": 82,
+        "name": "Vue.js",
+        "identifier": "vuejs",
+        "isCurrentlySupported": true,
+        "domain": {
+          "id": 12,
+          "name": "FrontEnd"
+        }
+      },
+      "projectSubTaskSubmissions": [
+        {
+          "id": 1689,
+          "summary": null,
+          "totalScore": 0,
+          "projectRequirementId": 945,
+          "dateSubmitted": null,
+          "submissionsLeft": 3,
+          "isValid": false
+        }
+      ],
+      "projectRequirementMilestones": [
+        {
+          "id": 75,
+          "header": "Handle form submission",
+          "acceptanceCriterias": [
+            {
+              "id": 196,
+              "description": "Submit support requests from the Vue frontend.",
+              "isSatisfied": false,
+              "status": "NotEvaluated",
+              "completenessPercentage": 0,
+              "filePathEvidence": [],
+              "projectRequirementMilestoneId": 75
+            },
+            {
+              "id": 197,
+              "description": "Display Laravel validation errors in the form.",
+              "isSatisfied": false,
+              "status": "NotEvaluated",
+              "completenessPercentage": 0,
+              "filePathEvidence": [],
+              "projectRequirementMilestoneId": 75
+            },
+            {
+              "id": 198,
+              "description": "Refresh the request list after successful submission.",
+              "isSatisfied": false,
+              "status": "NotEvaluated",
+              "completenessPercentage": 0,
+              "filePathEvidence": [],
+              "projectRequirementMilestoneId": 75
+            }
+          ],
+          "projectRequirement": {
+            "id": 945,
+            "description": "Connect Vue forms to Laravel API endpoints with request validation and user feedback.",
+            "header": "Integrate support request flow",
+            "techStackId": 82,
+            "paths": [
+              "**/src/services/**",
+              "**/src/api/**",
+              "**/src/stores/**",
+              "**/app/Http/Requests/**"
+            ],
+            "projectId": 415
+          }
+        }
+      ],
+      "paths": [
+        "**/src/services/**",
+        "**/src/api/**",
+        "**/src/stores/**",
+        "**/app/Http/Requests/**"
+      ],
+      "projectId": 415
+    }
+  ],
+  "projectApplicationId": 453,
+  "currentWorkingProject": "https://github.com/he1snber8/Bitasmbl_myvueapptest_d67_453",
+  "domains": [
+    {
+      "name": "FrontEnd",
+      "tech": ["Vue.js", "Laravel"],
+      "initializedLocally": true,
+      "repo": "https://github.com/he1snber8/Bitasmbl_myvueapptest_d67_453",
+      "localPath": "/Users/lukakhaja/Bitasmbl_myvueapptest_d67_453"
+    },
+    {
+      "name": "BackEnd",
+      "tech": ["Vue.js", "Laravel"],
+      "initializedLocally": false,
+      "repo": "https://github.com/he1snber8/Bitasmbl_mylaraveltest_d67_453",
+      "localPath": ""
+    }
+  ]
+}
