@@ -9,26 +9,20 @@
       "file": "frontend/src/views/text.txt",
       "requirementId": 943,
       "requirementName": "Build customer portal UI",
-      "changes": 11,
-      "modifiedRanges": [
-        {
-          "startLine": 10,
-          "endLine": 10,
-          "lineCount": 1
-        }
-      ],
+      "changes": 12,
+      "modifiedRanges": [],
       "timestamps": {
         "firstModified": "2026-07-08T09:11:18.536Z",
-        "lastModified": "2026-07-12T14:09:13.298Z"
+        "lastModified": "2026-07-12T14:09:20.229Z"
       },
       "activity": {
-        "activeDurationSec": 1767,
+        "activeDurationSec": 1773,
         "idleBreaks": 3,
-        "avgIntervalSec": 33042.545454545456
+        "avgIntervalSec": 30289.5
       },
       "diffStats": {
-        "linesAdded": 1,
-        "linesDeleted": 1,
+        "linesAdded": 0,
+        "linesDeleted": 0,
         "largeChangeEvents": 0
       },
       "patterns": {
