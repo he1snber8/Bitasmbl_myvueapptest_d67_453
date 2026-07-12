@@ -1,6 +1,7 @@
 
 
 name: Bitasmbl Validation
+# "diffs": ${{ steps.diff.outputs.diff }},
 
 on:
   push:
@@ -144,8 +145,8 @@ jobs:
             "projectApplicationId": ${{ steps.meta.outputs.project_application_id }},
             "requirementId": ${{ steps.meta.outputs.requirement_id }},
             "repo": "${{ github.repository }}",
+            "baseSha": "${{ github.event.before }}",
             "commitSha": "${{ github.sha }}",
-            "diffs": ${{ steps.diff.outputs.diff }},
             "activityMeta": ${{ steps.meta.outputs.activity_data }}
           }
           EOF
