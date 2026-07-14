@@ -6,5 +6,10 @@ test !!test !!test !!
 test !!
 test !!
 
-
+  entry.activity.intervalSamples.push(deltaSec);
+  entry.activity.intervalSamples.push(deltaSec);
 test againn!!222444555
+test againn!!222444555
+
+
+Date.now()
